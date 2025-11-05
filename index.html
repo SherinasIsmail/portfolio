@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hi, I’m V V Sherinas</h1>
+    <p>BCA Student | Aspiring Web Developer</p>
+  </header>
 
+  <section id="about">
+    <h2>About Me</h2>
+    <section id="about">
+    <img src="E:\my credentials\photo.jpg" alt="V V Sherinas" class="profile-pic">
+    <p>Hi! I’m Sherinas, a BCA student with a strong interest in web development and cybersecurity. I enjoy learning how technology works — from designing responsive websites to understanding how to keep them secure. I’m currently exploring projects that help me strengthen both my coding and security fundamentals as I work toward a career in tech.</p>
+  </section>
+</section>
+
+  <section id="skills">
+    <section id="skills">
+  <h2>Skills</h2>
+  <p>Here are some of the technical skills I’ve developed through my coursework, self-learning, and projects.</p>
+
+  <div class="skills-container">
+    <div class="skill-category">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>Python</li>
+        <li>C</li>
+        <li>Java</li>
+        <li>PHP</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Web Technologies</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Databases</h3>
+      <ul>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Other Interests</h3>
+      <ul>
+        <li>Cybersecurity Fundamentals</li>
+        <li>Version Control (Git, GitHub)</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p>This is one of my recent works where I applied my web development skills to create a responsive and interactive portfolio website</p>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio website created using HTML, CSS, and JavaScript to showcase my skills, certificates, and projects.</p>
+      <a href="https://github.com/sherinasismail/portfolio" target="_blank">View on GitHub</a>
+    </div>
+
+
+  </div>
+</section>
+
+  <section id="certificates">
+  <h2>Certificates</h2>
+  <p>Here are some of my certifications showcasing my learning in programming, web development, and cybersecurity.</p>
+
+  <ul class="cert-list">
+    <li><a href="https://drive.google.com/file/d/1fBcDBgY5axG8m0a3effcy98INP0vRIb4/view?usp=drive_link" target="_blank">Artificial Intelligence - The Digital Adda</a></li>
+    <li><a href="https://drive.google.com/file/d/1EqaQqyyTLG2Hqq5p9Ds7qfey_laRaM3c/view?usp=drive_link" target="_blank">Data Structure & Algorithms - The Digital Adda</a></li>
+    <li><a href="https://drive.google.com/file/d/1shDGmp7ASzpVecG1tjwqzfV01Tph6wBy/view?usp=drive_link" target="_blank">Ethical Hacking - The Digital Adda</a></li>
+    <li><a href="https://drive.google.com/file/d/14ICFkuOsAPtvREVNT9Spszug1j4HPGZm/view?usp=drive_link" target="_blank">AI for beginners - HP LIFE</a></li>
+    <li><a href="https://drive.google.com/file/d/1PWufVJAWHkr87qu3lMvVv5rffVe3NaeQ/view?usp=drive_link" target="_blank">Cybersecurity Awareness - HP LIFE</a></li>
+    <li><a href="https://drive.google.com/file/d/1WTQLPZ57wVxIoKLxFa5EabiIwpQYQHHw/view?usp=drive_link" target="_blank">Data Analysis with Python - IBM Cognitive Class</a></li>
+    <li><a href="https://drive.google.com/file/d/1BYE5PdMHgehJR6fQXqkVaQMaHQUpeUQ_/view?usp=drive_link" target="_blank">Introduction to Cybersecurity - Simplilearn</a></li>
+    <li><a href="https://drive.google.com/file/d/1PqqhR-g_hrq1RI2g4VEfkuMIxoqooAz8/view?usp=drive_link" target="_blank">Network Security & Defensive Hacking - The Digital Adda</a></li>
+
+  </ul>
+  <p>
+  <a href="https://drive.google.com/drive/folders/1vjXTKdF3EDif0W8bNZqY7y-QPh_rPOod?usp=drive_link" 
+     target="_blank" 
+     class="view-all">
+     📜 View All Certificates
+  </a>
+</p>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+    <a href="mailto:sherishaaz91@gmail.com" class="contact-link">📧 sherishaaz91@gmail.com</a>
+    <a href="https://www.linkedin.com/in/sherinas-ismail-097860307" target="_blank" class="contact-link">💼 LinkedIn</a>
+    <a href="https://github.com/sherinasIsmail" target="_blank" class="contact-link">💻 GitHub</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 V V Sherinas. All Rights Reserved.</p>
+  <p>Designed & Developed by <strong>V V Sherinas</strong></p>
+</footer>
+
+<button id="scrollBtn" title="Go to top" aria-label="Scroll to top">↑</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const mybutton = document.getElementById('scrollBtn');
+    mybutton.style.display = 'none';
+    window.addEventListener('scroll', function () {
+      if (document.documentElement.scrollTop > 200 || document.body.scrollTop > 200) {
+        mybutton.style.display = 'block';
+      } else {
+        mybutton.style.display = 'none';
+      }
+    });
+    mybutton.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+</script>
+</body>
+</html>
